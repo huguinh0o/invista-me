@@ -17,11 +17,11 @@
   <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="{% url 'investimentos' %}">Invista-Me</a>
   </nav>
-  {% if messages %}
+  <!--{% if messages %}
   {% for message in messages %}
   <div class="alert alert-{{ message.tags}}"> {{message}}</div>
   {% endfor %}
-  {{% endif %}}
+  {{% endif %}} -->
   {% block conteudo %}
 
   {% endblock %}
